@@ -22,7 +22,7 @@ const frameMetadata = getFrameMetadata({
     aspectRatio: '1:1',
   },
   input: {
-    text: 'Tell me how you feel about Tapioca',
+    text: 'Tell me about Tapioca',
   },
   postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
 });
