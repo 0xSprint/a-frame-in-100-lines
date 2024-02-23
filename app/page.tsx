@@ -9,7 +9,7 @@ const frameMetadata = getFrameMetadata({
     },
     {
       action: 'link',
-      label: 'Link to Google',
+      label: 'Link to LBP',
       target: 'https://www.google.com',
     },
     {
@@ -22,7 +22,7 @@ const frameMetadata = getFrameMetadata({
     aspectRatio: '1:1',
   },
   input: {
-    text: 'Tell me a boat story',
+    text: 'Tell me how you feel about Tapioca',
   },
   postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
 });
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>zizzamia.xyz</h1>
+      <h1>You shouldn't be here!</h1>
     </>
   );
 }
